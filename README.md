@@ -2,6 +2,7 @@
 
 
 **What is this?**
+
 Arduino / ATtiny85 based solution to manipulate the fan speed reported to PC system making fan run slower. 
 HP Omen Ryzen are running a little noisy even at low demanding tasks. 
 Even if the temp is low, about 40c. 
@@ -11,6 +12,7 @@ As cooling demand rises, fan will go back to normal operations.
 https://www.youtube.com/watch?v=ppQBuBrlFy8
 
 **How does it work?**
+
 The fan speed is controlled by the motherboard/system by a PWM signal to the fan.
 Then fan reports back a its current rpm to the system.
 On this computer (HP Omen Ryzen 2020) 200Hz (200 rpm per second) is 100% fan speed.
@@ -27,6 +29,7 @@ But then going over 160Hz a treshold in the firmware of the ATtiny will bypass t
 This is neccesary for heavy gaming etc.
 
 **How to build**
+
 This is an Arduino project with very simple code and circuit but you need some electronics and soldering skills.
 To program, you need an Arduino Uno and use it as a programmer for the ATtiny.
 There are numerous guides on the net on how to set this up.
